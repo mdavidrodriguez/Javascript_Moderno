@@ -1,0 +1,36 @@
+body{
+    background-color: #eee;
+}
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    border: 1px solid grey;
+
+}
+
+table th{
+    color: white;
+    text-align: left;
+    background-color: rgb(18, 160, 18);
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right:joshdick/onedark.vim 8px;
+    padding-bottom: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+tr:hover{
+background-color: aquamarine;
+padding: 4px;
+transition: 0.5s;
+}
+
+
+
